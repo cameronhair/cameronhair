@@ -29,7 +29,6 @@
     
 }
 
-/*Media Query to change padding for larger screens*/
 main, section, footer {
     padding: 0.625rem;
     /* border: 0.063rem solid #000000; */
@@ -523,107 +522,158 @@ button:active {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center; 
+}
+
+.gallery p {
+  text-decoration: overline underline;
 }
 
 .picture{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 5px;
+  margin: 20px;
   border: 0.063rem solid #000000;
   background-color: rgba(0, 0, 0, 0.33);
-  min-height: 12.5rem;
-  min-width: 150px;
+  min-height: 17.5rem;
+  min-width: 350px;
+
 }
+/*Designs*/
 #pic1  {
-  background-image: url(../images/pic11.jpg);
+  background-image: url(../images/CamPhotos/design-14.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
 
 }
 #pic2  {
-  background-image: url(../images/pic10.jpg);
+  background-image: url(../images/CamPhotos/design-16.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
   
 }
 #pic3  {
-  background-image: url(../images/pic8.jpg);
+  background-image: url(../images/CamPhotos/design-17.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
 }
 #pic4  {
-  background-image: url(../images/pic2.jpg);
+  background-image: url(../images/CamPhotos/design1-15.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
 }
 #pic5  {
-  background-image: url(../images/pic12.jpg);
-  background-repeat: no-repeat;
+  background-image: url(../images/CamPhotos/design-11.jpg);
   background-position: center;
   background-size:cover;
 }
 #pic6  {
-  background-image: url(../images/pic3.jpg);
+  background-image: url(../images/CamPhotos/design-combo.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
 }
+
+/*Colors*/
 #pic7  {
-  background-image: url(../images/pic9.jpg);
+  background-image: url(../images/CamPhotos/color-11.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
 }
 #pic8  {
-  background-image: url(../images/pic13-1.jpg);
+  background-image: url(../images/CamPhotos/color-10.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
 }
 #pic9  {
-  background-image: url(../images/pic5.jpg);
+  background-image: url(../images/CamPhotos/color-16.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
 }
 #pic10  {
-  background-image: url(../images/pic1.jpg);
+  background-image: url(../images/CamPhotos/color-combo.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
 }
 #pic11  {
-  background-image: url(../images/pic4.jpg);
+  background-image: url(../images/CamPhotos/color-combo2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
 }
 #pic12  {
-  background-image: url(../images/pic14.jpg);
+  background-image: url(../images/CamPhotos/color-12.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+/*Special Occasions*/
+#pic13  {
+  background-image: url(../images/CamPhotos/special-occasion-combo1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+#pic14  {
+  background-image: url(../images/CamPhotos//special-occasion-combo2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+#pic15  {
+  background-image: url(../images/CamPhotos/special-occasion-combo3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+#pic16  {
+  background-image: url(../images/CamPhotos/special-occasion-combo4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+#pic17  {
+  background-image: url(../images/CamPhotos/special-occasion.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+#pic18  {
+  background-image: url(../images/CamPhotos/special-occasion5.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
 }
 
 
+
  /* Small devices (portrait tablets and large phones, 600px and up) */
  @media only screen and (min-width: 600px) {
   .picture {
-    min-height: 18.5rem;
-    min-width: 250px;
+    min-height: 20.5rem;
+    min-width: 400px;
   }
   #gallery-p {
     width: 600px;
     margin: auto;
   }
  }
-
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .picture {
+      min-height: 24.5rem;
+      min-width: 600px;
+    }
+  }
 /*---------------------------------------
  	About Section - Flex items
 -----------------------------------------*/
