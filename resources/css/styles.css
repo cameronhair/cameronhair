@@ -578,6 +578,12 @@ button:active {
   background-position: center;
   background-size:cover;
 }
+#pic15  {
+  background-image: url(../images/CamPhotos/special-occasion-combo3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
 
 /*Colors*/
 #pic7  {
@@ -629,12 +635,7 @@ button:active {
   background-position: center;
   background-size:cover;
 }
-#pic15  {
-  background-image: url(../images/CamPhotos/special-occasion-combo3.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size:cover;
-}
+
 #pic16  {
   background-image: url(../images/CamPhotos/special-occasion-combo4.jpg);
   background-repeat: no-repeat;
