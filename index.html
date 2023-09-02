@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,52 +13,56 @@
     
     <body>
 <!-- Main Content -->
-        <main id="home">
+        <main id="home" role="main">
             Main
 
             <!-- Header -->
             <header class="navbar">           
                   
-                <div class="container nav-container">
+                <div class="container nav-container" role="navigation">
 
                     <img src="./resources/images/Cameron-Logo-large.png" alt="Cameron Hair logo" class="logo">
 
-                    <input class="checkbox" type="checkbox" name="" id="" />
-                    <div class="hamburger-lines">
-                      <span class="line line1"></span>
-                      <span class="line line2"></span>
-                      <span class="line line3"></span>
-                    </div>  
-     
-                  <div class="menu-items">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#products">Products</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                  </div>
+                    <!-- Hamburger menu -->
+                    <input class="checkbox" type="checkbox" name="toggle-menu" id="toggle-menu" aria-label="Toggle menu">
+                    <label for="toggle-menu" class="hamburger-lines" role="button" tabindex="0" aria-label="Toggle menu">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                    </label>
+
+                    <!-- Navigation menu -->
+                    <nav class="menu-items">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#products">Products</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
                 </div>
 
+                <!-- Large screen navigation -->
                 <div class="nav-large">
                     <div  class="logo-large">
-                    <img src="./resources/images/Cameron-Logo-large.png" alt="Cameron Hair logos logo">
+                        <img src="./resources/images/Cameron-Logo-large.png" alt="Cameron Hair logos logo">
                     </div>
 
-                    <div class="menu-large">
+                    <nav class="menu-large">
                         <li><a href="#home">Home</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#products">Products</a></li>
                         <li><a href="#gallery">Gallery</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#contact">Contact</a></li>
-                    </div>
+                    </nav>
                 </div>
-
             </header>
 
             <!-- Hero -->
-            <section class="banner">
+            <section class="banner" role="banner">
                 <div class = "title-box">
                     <h2>Time, Talent, Trust, Truth. Your Hair, Our Promise.</h2>
                 </div>
@@ -78,14 +82,15 @@
                 </section>
 
                 <!-- Services -->
-                <section class="services" id="services">
+                <section class="services" id="services"  role="region" aria-label="Services">
                     <h2>Services</h2>
                     <p>
                         Discover a world of tailored hair services that elevate your style and embrace your unique self, leaving you with hair that turns heads and empowers your self-expression.
                     </p>
-
+                    
+                    <!-- Subsection: Color Services -->
                     <div class="service-boxes"> 
-                        <div class="service-box1">
+                        <div class="service-box1" role="region" aria-label="Color Services">
                             <div id="color">
                                 <h3>
                                     Color
@@ -104,7 +109,8 @@
 
                         </div>
 
-                        <div class="service-box2">
+                        <!-- Subsection: Design Services -->
+                        <div class="service-box2" role="region" aria-label="Hair Design Services">
                             <div id="design">
                                 <h3>
                                 Design
@@ -128,7 +134,8 @@
                             </div>
                         </div>
 
-                        <div class="service-box3">
+                        <!-- Subsection: Treatment Services -->
+                        <div class="service-box3" role="region" aria-label="Treatment Services">
                             <div id="treatments">
                                 <h3>
                                     Treatments
@@ -152,7 +159,7 @@
                 </section>
 
                 <!-- Productss -->
-                <section class="products" id="products">
+                <section class="products" id="products" role="region" aria-label="Products">
                     <h2>Products</h2>
                     <h3>Proud to use Matrix Haircare</h3>
 
@@ -174,7 +181,7 @@
                 </section>
 
                 <!-- Gallery -->
-                <section class="gallery-area" id="gallery">
+                <section class="gallery-area" id="gallery" role="region" aria-label="Gallery">
                     <h2>Gallery</h2>
                     <p id="gallery-p">
                         Step into our gallery and witness the artistry of hair unfold, showcasing a tapestry of captivating styles that inspire and ignite your own personal transformation
@@ -244,12 +251,12 @@
                     </div>
 
                     <div>
-                        <button type="button">Call Cameron 727-895-4400</button>
+                        <button type="button" role="button">Call Cameron 727-895-4400</button>
                     </div>
                 </section>
 
                 <!-- About -->
-                <section class="about-area" id="about">
+                <section class="about-area" id="about" role="region" aria-label="About Cameron">
                     <h2>About Cameron</h2>
 
                     <div class="about"> 
@@ -268,7 +275,7 @@
 
 
                 <!-- Contact -->
-                <section class="contact-area" id="contact">
+                <section class="contact-area" id="contact" role="region" aria-label="Contact">
                     <h2>Contact</h2>
 
                     <div class = contact>
@@ -280,7 +287,7 @@
                             <!--Picture-->
                         </div>
 
-                        <div class="contact-box" id="address">
+                        <div class="contact-box" id="address" role="region" aria-label="Contact Information">
                             <h4>
                                 Cameron Hair
                             </h4>
@@ -304,7 +311,7 @@
                         </div>
 
                         
-                        <div class="contact-box" id="hours">
+                        <div class="contact-box" id="hours" role="region" aria-label="Hours of Operation">
                             <h4>
                                 Hours of Operation
                             </h4>
@@ -332,10 +339,10 @@
                         </div>
 
                         <div id="safe-logo">
-                            <img src="./resources/images/safeZone03.png" alt="safe logo">
+                            <img src="./resources/images/safeZone03.png" alt="LGBT Safe Zone logo" >
                         </div>
 
-                        <div class="contact-box" id="map-pic">
+                        <div class="contact-box" id="map-pic" role="region" aria-label="Map">
                             <!--Picture-->
                         </div>
 
@@ -346,12 +353,13 @@
             </div>
     
             <!-- Footer -->
-            <footer class="footer">
+            <footer class="footer" role="contentinfo">
                 <div class="footer-box">
                     <img src="./resources/images/Cameron-Logo-large.png" alt="Cameron Hair logo">
                 </div>
                 <div class="footer-box">
                     <p>© 2023 Cameron Hair. All Rights Reserved. </p>
+                    <p>{ website design by Caprica Studios }</p>
                 </div>
             </footer>
 
