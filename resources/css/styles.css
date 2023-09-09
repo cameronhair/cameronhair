@@ -517,25 +517,25 @@ a:focus {
 }
 
 #redken {
-  background-image: url(../images/brand_redken.jpg);
+  background-image: url(/resources/images/brand_redken.jpg);
   background-repeat:no-repeat;
   background-position:top;
   background-size:cover;
 }
 #matrix {
-  background-image: url(../images/matrix_products.jpeg);
+  background-image: url(/resources/images/matrix_products.jpeg);
   background-repeat:no-repeat;
   background-position:center;
   background-size:cover;
 }
 #pulpriot {
-  background-image: url(../images/pulpriot-girl.png);
+  background-image: url(/resources/images/pulpriot-girl.png);
   background-repeat:no-repeat;
   background-position:top;
   background-size:cover;
 }
 #olaplex {
-  background-image: url(../images/olaplex-hair\ repair.png);
+  background-image: url(/resources/images/olaplex-hair\ repair.png);
   background-repeat:no-repeat;
   background-position:center;
   background-size:cover;
