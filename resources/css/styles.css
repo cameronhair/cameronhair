@@ -14,7 +14,7 @@ through the power of storytelling.
   font-family: 'adobe_garamond_probold';
   src: url('/resources/fonts/agaramondpro_bold-webfont.woff2') format('woff2'),
        url('/resources/fonts/agaramondpro_bold-webfont.woff') format('woff'),
-       url('/resources/ bold.otf') format('opentype');
+       url('../fonts/agaramondpro-bold.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -22,7 +22,7 @@ through the power of storytelling.
   font-family: 'adobe_garamond_proregular';
   src: url('/resources/fonts/agaramondpro_regular-webfont.woff2') format('woff2'),
        url('/resources/fonts/agaramondpro_regular-webfont.woff') format('woff'),
-       url('/resources/fonts/agaramondpro\ regular.otf') format('opentype');
+       url('/resources/fonts/agaramondpro-regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
