@@ -526,7 +526,7 @@ a:focus {
 }
 
 #redken {
-  background-image: url(/resources/images/brand_redken.jpg);
+  background-image: url(/resources/images/redken.jpeg);
   background-repeat:no-repeat;
   background-position:top;
   background-size:cover;
@@ -538,7 +538,7 @@ a:focus {
   background-size:cover;
 }
 #pulpriot {
-  background-image: url(/resources/images/pulpriot-girl.png);
+  background-image: url(/resources/images/pulp.jpg);
   background-repeat:no-repeat;
   background-position:top;
   background-size:cover;
