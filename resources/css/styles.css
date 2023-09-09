@@ -1,19 +1,28 @@
+/**************************************************************
+            Website Design by Caprica Studios
+      Growing Businesses Through Story-Driven Websites
+            www.capricastudios.com (site pending)
+
+ Our websites aren't just about aesthetics or functionality;
+they're a strategic tool aimed at driving growth and success 
+through the power of storytelling.
+*******************************************************************/
 /*-------------
  	Fonts
 -------------*/
 @font-face {
   font-family: 'adobe_garamond_probold';
-  src: url('../cameronhair/resources/fonts/agaramondpro_bold-webfont.woff2') format('woff2'),
-       url('../cameronhair/resources/fonts/agaramondpro_bold-webfont.woff') format('woff'),
-       url('../cameronhair/resources/fonts/agaramondpro\ bold.otf') format('opentype');
+  src: url('/resources/fonts/agaramondpro_bold-webfont.woff2') format('woff2'),
+       url('/resources/fonts/agaramondpro_bold-webfont.woff') format('woff'),
+       url('/resources/ bold.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'adobe_garamond_proregular';
-  src: url('../cameronhair/resources/fonts/agaramondpro_regular-webfont.woff2') format('woff2'),
-       url('../cameronhair/resources/fonts/agaramondpro_regular-webfont.woff') format('woff'),
-       url('../cameronhair/resources/fonts/agaramondpro\ regular.otf') format('opentype');
+  src: url('/resources/fonts/agaramondpro_regular-webfont.woff2') format('woff2'),
+       url('/resources/fonts/agaramondpro_regular-webfont.woff') format('woff'),
+       url('/resources/fonts/agaramondpro\ regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
