@@ -496,22 +496,71 @@ a:focus {
 /*---------------------------------------
  	Product Section - Flex items
 -----------------------------------------*/
-#matrix-logo img {
-  width: 200px;
-  min-height: 100px;
-  margin: 10px;
+.product-section p {
+  padding-bottom: 25px;
 }
 
-#matrix-rainbow img{
-  width: 100%;
-  min-height: 100px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+.product {
+  margin-bottom: 0.625rem;
+  border: 0.063rem solid white;
+  background-color: rgba(0, 0, 0, 0.33);
+  min-height: 15.5rem;
 }
 
-.products h4 {
-  padding: 5px;
+.subheading {
+  border: 0.063rem solid white;
+    /* background-color: rgba(0, 0, 0, 1); */
+    background-color: #F1592A;
+    padding: 5px;
+    margin: 0; 
+    color: white;
 }
+
+#redken {
+  background-image: url(../images/brand_redken.jpg);
+  background-repeat:no-repeat;
+  background-position:top;
+  background-size:cover;
+}
+#matrix {
+  background-image: url(../images/matrix_products.jpeg);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+}
+#pulpriot {
+  background-image: url(../images/pulpriot-girl.png);
+  background-repeat:no-repeat;
+  background-position:top;
+  background-size:cover;
+}
+#olaplex {
+  background-image: url(../images/olaplex-hair\ repair.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+}
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    .products {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-bottom: 30px;
+    }
+
+    .product {
+      width: 300px;
+      min-height: 300px;
+      margin: 10px;
+    }
+ }
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+
+  }
 
 /*---------------------------------------
  Gallery Section - Flex items
@@ -844,5 +893,4 @@ a:focus {
   height: 70px;
   padding-top: 10px;
 }
-
 
