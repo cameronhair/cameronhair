@@ -743,7 +743,9 @@ a:focus {
   background-image: url(../images/2023_News/best\ barber_2023.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size:cover;
+  background-size:contain;
+  background-color: transparent;
+  border: none;
 }
 #bestInBay2 {
   background-image: url(../images/2023_News/Cameron_Best_barber_finalist.jpg);
