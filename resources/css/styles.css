@@ -35,7 +35,6 @@ through the power of storytelling.
 	padding: 0;
 	box-sizing: border-box;
   font-family: 'adobe_garamond_proregular', Arial, sans-serif;
-  font-size: 2rem;
     
 }
 
@@ -581,6 +580,10 @@ a:focus {
   @media only screen and (min-width: 1200px) {
 
   }
+/*---------------------------------------
+ News Section - Flex items
+-----------------------------------------*/
+
 
 /*---------------------------------------
  Gallery Section - Flex items
@@ -598,7 +601,7 @@ a:focus {
     justify-content: center; 
 }
 
-.gallery p {
+.gallery h4 {
   text-decoration: overline underline;
 }
 
