@@ -580,10 +580,6 @@ a:focus {
   @media only screen and (min-width: 1200px) {
 
   }
-/*---------------------------------------
- News Section - Flex items
------------------------------------------*/
-
 
 /*---------------------------------------
  Gallery Section - Flex items
@@ -614,7 +610,18 @@ a:focus {
   background-color: rgba(0, 0, 0, 0.33);
   min-height: 17.5rem;
   min-width: 350px;
+}
 
+.updates h4, h4, p {
+  margin: 5px;
+}
+.update h4 {
+  text-decoration: none;
+}
+#best_of_bay {
+  color: inherit;
+  text-decoration: none;
+  text-decoration: underline;
 }
 /*Designs*/
 #pic1  {
@@ -729,6 +736,41 @@ a:focus {
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
+}
+
+/* Best of the Bay 2023 */
+#bestInBay1  {
+  background-image: url(../images/2023_News/best\ barber_2023.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+#bestInBay2 {
+  background-image: url(../images/2023_News/Cameron_Best_barber_finalist.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+#bestInBay3  {
+  background-image: url(../images/2023_News/Cameron_Best_barber_finalist2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+#bestInBay4  {
+  background-image: url(../images/2023_News/Cameron_Best_barber_finalist3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+#bestInBay5  {
+  background-image: url(../images/2023_News/Cameron_Best_barber_finalist4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+  background-color: transparent;
+  border: none;
 }
 
 
